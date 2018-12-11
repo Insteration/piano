@@ -10,7 +10,7 @@ import Foundation
 import AVFoundation
 
 protocol Piano {
-func playPiano(_ sound: String)
+func playPiano(_ sound: Int)
 }
 
 class PianoSounds: Piano {
@@ -18,9 +18,9 @@ class PianoSounds: Piano {
     
     private var audioPlayer = AVAudioPlayer()
     
-    func playPiano(_ sound: String) {
+    func playPiano(_ sound: Int) {
         do {
-            audioPlayer = try AVAudioPlayer(contentsOf: URL(fileURLWithPath: sounds[Int(sound)!]))
+            audioPlayer = try AVAudioPlayer(contentsOf: URL(fileURLWithPath: sounds[sound]))
         } catch {
             print(error)
         }
