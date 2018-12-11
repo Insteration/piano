@@ -13,9 +13,5 @@ class ViewController: UIViewController {
     
     @IBAction func pianoPlayButton(_ sender: UIButton) {
         piano.playPiano(String(sender.tag))
-//
-//        for _ in piano.playPiano(sender.tag) {
-//            piano.playPiano(piano.sounds[sender.tag])
-//        }
     }
 }
