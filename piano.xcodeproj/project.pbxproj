@@ -13,7 +13,7 @@
 		D947CDF521BF1722007B7790 /* data in Resources */ = {isa = PBXBuildFile; fileRef = D947CDF421BF1722007B7790 /* data */; };
 		D947CDF721BF1A0D007B7790 /* model.swift in Sources */ = {isa = PBXBuildFile; fileRef = D947CDF621BF1A0D007B7790 /* model.swift */; };
 		D9A012CC21BF1B430015F883 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A012CB21BF1B430015F883 /* AppDelegate.swift */; };
-		D9A012D221BF361D0015F883 /* design.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A012D121BF361D0015F883 /* design.swift */; };
+		D9A012D221BF361D0015F883 /* Extension+UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A012D121BF361D0015F883 /* Extension+UIView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,7 +25,7 @@
 		D947CDF421BF1722007B7790 /* data */ = {isa = PBXFileReference; lastKnownFileType = folder; path = data; sourceTree = "<group>"; };
 		D947CDF621BF1A0D007B7790 /* model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = model.swift; sourceTree = "<group>"; };
 		D9A012CB21BF1B430015F883 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D9A012D121BF361D0015F883 /* design.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = design.swift; sourceTree = "<group>"; };
+		D9A012D121BF361D0015F883 /* Extension+UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+UIView.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,7 +63,7 @@
 				D947CDC921BF1684007B7790 /* ViewController.swift */,
 				D947CDCB21BF1684007B7790 /* Main.storyboard */,
 				D947CDF621BF1A0D007B7790 /* model.swift */,
-				D9A012D121BF361D0015F883 /* design.swift */,
+				D9A012D121BF361D0015F883 /* Extension+UIView.swift */,
 				D947CDCE21BF1685007B7790 /* Assets.xcassets */,
 				D947CDD321BF1685007B7790 /* Info.plist */,
 			);
@@ -142,7 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D9A012CC21BF1B430015F883 /* AppDelegate.swift in Sources */,
-				D9A012D221BF361D0015F883 /* design.swift in Sources */,
+				D9A012D221BF361D0015F883 /* Extension+UIView.swift in Sources */,
 				D947CDCA21BF1684007B7790 /* ViewController.swift in Sources */,
 				D947CDF721BF1A0D007B7790 /* model.swift in Sources */,
 			);
