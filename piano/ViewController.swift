@@ -12,6 +12,6 @@ class ViewController: UIViewController {
     let piano: Piano = PianoSounds()
     
     @IBAction func pianoPlayButton(_ sender: UIButton) {
-        piano.playPiano(Int(sender.tag))
+        piano.playPiano(sender.tag)
     }
 }
