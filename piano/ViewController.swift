@@ -9,11 +9,13 @@
 import UIKit
 
 class ViewController: UIViewController {
-    let piano = PianoSounds()
+    let piano: Piano = PianoSounds()
     
     @IBAction func pianoPlayButton(_ sender: UIButton) {
-        for _ in piano.sounds {
-            piano.playPiano(piano.sounds[sender.tag])
-        }
+        piano.playPiano(String(sender.tag))
+//
+//        for _ in piano.playPiano(sender.tag) {
+//            piano.playPiano(piano.sounds[sender.tag])
+//        }
     }
 }
